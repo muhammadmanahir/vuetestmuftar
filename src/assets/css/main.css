@@ -1,0 +1,20 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,900;1,200;1,300;1,800;1,900&family=Roboto:wght@100;400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+body {
+  background-image: url(../images/BG.png);
+  overflow-x: hidden;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
