@@ -76,6 +76,9 @@ p{
   color: #666668;
 }
 @media (max-width: 1366px) {
+  footer {
+    margin: 14rem -1rem;
+  }
   .links {
     width: 50%;
     margin-left: 5rem;
@@ -88,4 +91,17 @@ p{
     margin-left: 5rem;
   }
 }
+@media(max-width:700px){
+  footer {
+    width: 36rem;
+    margin: 8rem -3rem;
+}
+.copy{
+  width: 19rem;
+}
+.term {
+  width: 19rem;
+}
+}
+  
 </style>

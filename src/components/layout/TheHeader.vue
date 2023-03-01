@@ -3,10 +3,11 @@
     <nav>
       <div class="logo">
         <router-link to="/">
-          <img src="../../assets/images/logo.png" alt="" />
+          <img src="../../assets/images/logo.svg" alt="" />
         </router-link>
       </div>
       <ul class="links">
+        
         <li>
             <router-link to="/mission">Mission</router-link>
         </li>
@@ -28,6 +29,9 @@
           <router-link to="/join">Join The Network</router-link>
         </li>
       </ul>
+      <div class="icon">
+        
+      </div>
     </nav>
   </header>
 </template>
@@ -106,8 +110,8 @@ li {
 }
 @media (max-width: 1366px) {
     header {
-        margin-left: -13rem;
-        width: 112rem;
+      margin-left: -15rem;
+      width: 117rem;
       }
   header nav {
     width: 70%;
@@ -116,6 +120,7 @@ li {
   .links {
     margin-right: 3rem;
   }
-
+  
 }
+
 </style>
