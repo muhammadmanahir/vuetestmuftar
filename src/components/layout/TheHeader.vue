@@ -122,5 +122,78 @@ li {
   }
   
 }
+@media (max-width: 1280px) {
+    header {
+      margin-left: -15rem;
+      width: 117rem;
+      }
+  header nav {
+    width: 70%;
+  }
 
+  .links {
+    margin-right: -5rem;
+  }
+  
+}
+@media (max-width: 990px) {
+  .logo img {
+    width: 150px;
+    margin: -5rem 0;
+    position: absolute;
+  }
+
+  header {
+    margin-left: 5rem;
+    margin-top: 3rem;
+  }
+
+  header ul li {
+    list-style: none;
+    padding: 0.5rem 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  a {
+    color: white;
+    margin: 0;
+  }
+
+  .button a {
+    padding: 0.5rem 2.5rem;
+    background: #3c58a8;
+    border-radius: 0.5rem;
+    color: white;
+  }
+}
+@media (max-width: 700px) {
+  .logo img {
+    width: 150px;
+    margin: -5rem 0;
+    position: absolute;
+  }
+
+  header {
+    margin-left: 5rem;
+    margin-top: 3rem;
+  }
+
+  header ul li {
+    list-style: none;
+    padding: 0.5rem 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  a {
+    color: white;
+    margin: 0;
+  }
+
+  .button a {
+    padding: 0.5rem 2.5rem;
+    background: #3c58a8;
+    border-radius: 0.5rem;
+    color: white;
+  }
+}
 </style>

@@ -91,6 +91,11 @@ p{
     margin-left: 5rem;
   }
 }
+@media (max-width: 1280px) {
+  footer {
+    margin: 10rem -1rem;
+}
+}
 @media(max-width:700px){
   footer {
     width: 36rem;

@@ -61,6 +61,10 @@ html {
 body {
   margin: 0;
 }
+html,
+body{
+  overflow: hidden;
+}
 #navigation-icon {
   padding: 10px 10px 20px;
   margin-right: 10px;
@@ -91,5 +95,177 @@ body {
 
 .open {
   transform: translate(410px);
+}
+@media (max-width: 990px) {
+  html,
+body{
+  overflow: hidden;
+}
+  #navigation-icon {
+    padding: 10px 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-left: -5rem;
+    position: absolute;
+    margin-top: 2.5rem;
+  }
+  .content svg {
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    margin-top: -2.5rem;
+    margin-left: -2rem;
+  }
+  
+  .content {
+    position: absolute;
+    top: 10px;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    height: 40rem;
+    width: 26rem;
+    margin-left: 37rem;
+    transition: 1s transform cubic-bezier(0,.12,.14,1);
+  }
+  
+  .open {
+    transform: translate(410px);
+  }
+}
+@media (max-width: 900px) {
+  html,
+body{
+  overflow: hidden;
+}
+  #navigation-icon {
+    padding: 10px 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-left: -5rem;
+    position: absolute;
+    margin-top: 2.5rem;
+  }
+  .content svg {
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    margin-top: -2.5rem;
+    margin-left: -2rem;
+  }
+  
+  .content {
+    position: absolute;
+    top: 10px;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    height: 40rem;
+    width: 26rem;
+    margin-left: 37rem;
+    transition: 1s transform cubic-bezier(0,.12,.14,1);
+  }
+  
+  .open {
+    transform: translate(410px);
+  }
+}
+@media (max-width: 912px) {
+  html,
+body{
+  overflow: hidden;
+}
+  
+  .content {
+      margin-left: 32rem;
+  
+  }
+  
+}
+@media (max-width: 768px) {
+  html,
+body{
+  overflow: hidden;
+}
+  
+  .content {
+      margin-left: 23rem;
+  
+  }
+  
+}
+@media (max-width: 700px) {
+  html,
+body{
+  overflow: hidden;
+}
+  #navigation-icon {
+    padding: 10px 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-left: -5rem;
+    position: absolute;
+    margin-top: 2.5rem;
+  }
+  .content svg {
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    margin-top: -2.5rem;
+    margin-left: -2rem;
+  }
+  
+  .content {
+    position: absolute;
+    top: 10px;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    height: 40rem;
+    width: 26rem;
+    margin-left: 37rem;
+    transition: 1s transform cubic-bezier(0,.12,.14,1);
+  }
+  
+  .open {
+    transform: translate(410px);
+  }
+}
+@media (max-width: 540px) {
+  html,
+body{
+  overflow: hidden;
+}
+  
+  .content {
+      margin-left: 8rem;
+  
+  }
+  
+}
+@media (max-width: 412px) {
+  html,
+body{
+  overflow: hidden;
+}
+  
+  .content {
+    margin-left: 0rem;
+  }
+
+}
+@media (max-width: 414px) {
+  html,
+body{
+  overflow: hidden;
+}
+  
+  .content {
+    margin-left: 0rem;
+  }
+
 }
 </style>

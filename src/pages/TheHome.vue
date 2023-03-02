@@ -27,6 +27,10 @@
 </template>
 
 <style scoped>
+html,
+body{
+  overflow: hidden;
+}
 .mob-logo{
   display: none;
 }
@@ -81,6 +85,10 @@ button {
     cursor: pointer;
 }
 @media (max-width: 1366px) {
+  html,
+body{
+  overflow: hidden;
+}
  .mob-logo {
   display: none;
  }
@@ -109,9 +117,46 @@ button {
       margin-top: 1rem;
   }
 }
+@media (max-width: 1280px) {
+  html,
+body{
+  overflow: hidden;
+}
+ .mob-logo {
+  display: none;
+ }
+  section {
+    display: flex;
+  }
+    .right_box{
+      margin: 4rem 4rem;
+    }
+    .left_box{
+      margin: -14rem -8rem;
+    }
+    .left_box img{
+        width: 55rem;
+        height: 60rem;
+    }
+    .all_checkboxes {
+      display: flex;
+      align-items: center;
+      margin: 4rem 0rem;
+    }
+    .right_box h3 {
+      margin-top: 1rem;
+    }
+    .short_form {
+      margin-top: 1rem;
+  }
+}
 @media(max-width:700px)
 
   {
+    html,
+    body{
+      overflow: hidden;
+    }
     .mob-logo{
       display: block;
     }
